@@ -1,0 +1,49 @@
+
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+body{
+color: #fff;
+background: #769489;
+font-family: 'Julius Sans One', 微軟正黑體 , Microsoft JhengHei ,sans-serif;
+padding:100px 0px 100px 0px;
+}
+header{
+background:#a4b750;
+padding:1em;
+position:fixed;
+top:300px;
+left:-150px;
+-webkit-transform:rotate(90deg);
+}
+
+.top{
+list-style-type:none;
+color:#7d663c;
+font-size:2em;
+}
+
+.sec{
+list-style-type:none;
+color:#7d663c;
+font-size:14px;
+background:white;
+padding:1em;
+margin:10px 0px 10px 0px;
+} 
+
+input{
+background-color:#769489;
+color:#FFF;
+font-family: 'Julius Sans One', 微軟正黑體 , Microsoft JhengHei ,sans-serif;
+}
+input:hover{
+background-color:#CCCCCC;
+}
+
+body div + div{
+background:#a4b750;
+padding:10px;
+bottom:0px;
+margin:40px -100px 0px 190px;
+position:relative;
+}
