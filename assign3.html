@@ -14,6 +14,14 @@
 </head>
 
 <body onload="init_address();">
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=177119669118445";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <h1>功能一：直接點選</h1>
 <div id="method1">
         <div onClick=displayresult(this.id) id="2306188">七堵</div>
@@ -113,5 +121,6 @@
         <h2>Text</h2>
         <div id="text"></div>	
     </div>
+    <div class="fb-like" data-href="http://changchiayun.github.io/ccy/assign3.html" data-send="true" data-width="450" data-show-faces="true"></div>
 </body>
 </html>
